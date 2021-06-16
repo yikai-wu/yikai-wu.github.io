@@ -3,16 +3,23 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+first_name: Yikai
+middle_name:
+last_name: Wu
+email: yikai.wu@cs.princeton.edu
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Ph.D. student in Computer Science at Princeton University
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords:
+icon: /assets/icon/mercury.ico
+# data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>
+url: https://yikai-wu.github.io # the base hostname & protocol for your site
+#baseurl: # keep blank
+last_updated: true # set to true if you want to display last updated in the footer
+impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -68,6 +75,34 @@ serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: yikai-wu # your GitHub user name
+#gitlab_username: # your GitLab user name
+twitter_username: yikai_wu_ # your Twitter handle
+linkedin_username: yikai-wu-8759b66b # your LinkedIn user name
+scholar_userid: O-V-kjoAAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-8933-6293 # your ORCID ID
+#medium_username: # your Medium username
+#quora_username: # your Quora username
+#publons_id: # your ID on Publons
+#research_gate_profile: # your profile on ResearchGate
+#blogger_url: # your blogger URL
+#work_url: # work page URL
+#keybase_username: # your keybase user name
+#wikidata_id: # your wikidata id
+dblp_url: https://dblp.org/pid/202/3087-1
+#stackoverflow_id: #your stackoverflow id
+
+arXiv_url: https://arxiv.org/a/wu_y_14.html
+CV_link: /assets/pdf/Yikai_Wu_CV.pdf
+
+contact_note: >
+  Email is the best way to reach me.
+# You can even add a little note about which of these is the best way to reach you.
+
+# -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
@@ -86,6 +121,10 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
+# blog_name: al-folio # blog_name will be displayed in your blog page
+# blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+# blog_description: a simple whitespace theme for academics
+# permalink: /blog/:year/:title/
 blog_name: al-folio # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
@@ -263,6 +302,9 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
+
+  last_name: Wu
+  first_name: [Yikai, Y.]
   last_name: [Einstein]
   first_name: [Albert, A.]
 
