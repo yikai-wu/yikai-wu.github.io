@@ -10,8 +10,8 @@ profile:
   image: Yikai_Wu.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>908 Derbe Ln</p>
-    <p>Blacksburg, VA 24060</p>
+    <p>305 George St</p>
+    <p>New Haven, CT 06511</p>
     <p>United States</p>
 
 news: false  # includes a list of news items
