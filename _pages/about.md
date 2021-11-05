@@ -10,8 +10,8 @@ profile:
   image: Yikai_Wu.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>305 George St</p>
-    <p>Apt 3M</p>
+    <p>10 Hillhouse Ave</p>
+    <p>Room DL237</p>
     <p>New Haven, CT 06511</p>
     <p>United States</p>
   more_info: >
