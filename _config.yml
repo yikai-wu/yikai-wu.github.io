@@ -96,6 +96,8 @@ dblp_url: https://dblp.org/pid/202/3087-1
 arXiv_url: http://arxiv.org/a/wu_y_14
 CV_link: /assets/pdf/Yikai_Wu_CV.pdf
 
+rss_icon: false
+
 contact_note: >
   Email is the best way to reach me.
 # You can even add a little note about which of these is the best way to reach you.
