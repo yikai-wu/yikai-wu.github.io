@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fas fa-volume-up"></i></a> (吴溢恺 in Chinese). I am an incoming Ph.D. student in Computer Science at Yale University. I am currently working with Prof. <a href="https://www.cs.yale.edu/homes/vishnoi/Home.html" target="_blank">Nisheeth Vishnoi</a> on optimization with privacy guarantees.
+My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fas fa-volume-up"></i></a> (吴溢恺 in Chinese). I am an incoming Ph.D. student in Computer Science at Yale University.
 
 My research interests lie on machine learning, optimization, and data privacy. I am also broadly interested in theoretical computer science and quantum information science.
 
