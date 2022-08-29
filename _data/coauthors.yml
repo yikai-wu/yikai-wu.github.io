@@ -21,3 +21,19 @@
 "Kotsogiannis":
   - firstname: ["Ios", "I."]
     url: https://users.cs.duke.edu/~iosk/
+
+"Vishnoi":
+  - firstname: ["Nisheeth", "N."]
+    url: https://www.cs.yale.edu/homes/vishnoi/Home.html
+
+"Mangoubi":
+  - firstname: ["Oren", "O."]
+    url: https://www.orenmangoubi.com/
+    
+"Kale":
+  - firstname: ["Satyen", "S."]
+    url: https://www.satyenkale.com/
+
+"Thakurta":
+  - firstname: ["Abhradeep", "A.", "Abhradeep Guha", "A. G."]
+    url: https://athakurta.squarespace.com/
