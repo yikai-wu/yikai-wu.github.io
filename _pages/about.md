@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-description: Ph.D. student @ <a href="https://cpsc.yale.edu" target="_blank">Department of Computer Science</a>, <a href="https://www.yale.edu" target="_blank">Yale University</a> 
+subtitle: Ph.D. student @ <a href="https://cpsc.yale.edu" target="_blank">Department of Computer Science</a>, <a href="https://www.yale.edu" target="_blank">Yale University</a> 
 
 profile:
   align: right
