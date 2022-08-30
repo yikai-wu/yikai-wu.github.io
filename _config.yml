@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yikai
 middle_name:
 last_name: Wu
-email: yikai.wu@yale.edu
+email: yikai.wu@cs.princeton.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. student in Computer Science at Yale University
+  Ph.D. student in Computer Science at Princeton University
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -16,13 +16,14 @@ keywords:
 icon: mercury.ico
 # data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>
 url: https://yikai-wu.github.io # the base hostname & protocol for your site
-#baseurl: # keep blank
+baseurl: # keep blank
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
+
 
 # code highlighter theme
 highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
