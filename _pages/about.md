@@ -37,7 +37,7 @@ My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank
 
 My research interests lie on machine learning, optimization, and data privacy. I am also broadly interested in theoretical computer science and quantum information science.
 
-I have received my Bachelor of Science (BS) degree in Computer Science and Mathematics from <a href="https://www.duke.edu" target="_blank">Duke University</a>. At Duke, I have worked with Prof. <a href="https://users.cs.duke.edu/~ashwin/" target="_blank">Ashwin Machanavajjhala</a> on differential privacy, Prof. <a href="https://users.cs.duke.edu/~rongge/" target="_blank">Rong Ge</a> on deep learning theory, and Prof. <a href="https://sites.duke.edu/marvian/" target="_blank">Iman Marvian</a> on quantum computation.
+I have received my Bachelor of Science (BS) degree in Computer Science and Mathematics from <a href="https://www.duke.edu" target="_blank">Duke University</a>. At Duke, I have worked with Prof. <a href="https://users.cs.duke.edu/~rongge/" target="_blank">Rong Ge</a> on deep learning theory, Prof. <a href="https://users.cs.duke.edu/~ashwin/" target="_blank">Ashwin Machanavajjhala</a> on differential privacy, and Prof. <a href="https://sites.duke.edu/marvian/" target="_blank">Iman Marvian</a> on quantum computation.
 
 I have also worked with Prof. <a href="https://www.cs.yale.edu/homes/vishnoi/Home.html" target="_blank">Nisheeth Vishnoi</a> at Yale University on optimization with privacy guarantees.
 
