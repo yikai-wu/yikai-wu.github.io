@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fas fa-volume-up"></i></a> (吴溢恺 in Chinese). I am an first-year Ph.D. student in <a href="https://www.cs.princeton.edu/" target="_blank">Computer Science</a> at <a href="https://www.princeton.edu/" target="_blank">Princeton University</a>. I am in the <a href="https://mltheory.cs.princeton.edu/" target="_blank">Theoretical Machine Learning group</a>. 
+My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fas fa-volume-up"></i></a> (吴溢恺 in Chinese). I am an first-year Ph.D. student in Computer Science at Princeton University. I am in the <a href="https://mltheory.cs.princeton.edu/" target="_blank">Theoretical Machine Learning group</a>. 
 
 My research interests lie on machine learning, optimization, and data privacy. I am also broadly interested in theoretical computer science and quantum information science.
 
