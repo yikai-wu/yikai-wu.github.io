@@ -7,7 +7,6 @@ first_name: Yikai
 middle_name:
 last_name: Wu
 email: yikai.wu@cs.princeton.edu
-contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ph.D. student in Computer Science at Princeton University
 footer_text: >
@@ -17,7 +16,7 @@ keywords:
 icon: mercury.ico
 # data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>
 url: https://yikai-wu.github.io # the base hostname & protocol for your site
-#baseurl: # keep blank
+baseurl: # keep blank
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
@@ -34,6 +33,11 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
+
+
+# code highlighter theme
+highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
