@@ -33,12 +33,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fas fa-volume-up"></i></a> (吴溢恺 in Chinese). I am an first-year Ph.D. student in Computer Science at Princeton University. I am in the <a href="https://mltheory.cs.princeton.edu/" target="_blank">Theoretical Machine Learning group</a>. 
+My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fas fa-volume-up"></i></a> (吴溢恺 in Chinese). I am an first-year Ph.D. student in Computer Science at Princeton University. 
 
-My research interests lie on machine learning, optimization, and data privacy. I am also broadly interested in theoretical computer science and quantum information science.
+My current research interests are optimization and sampling algorithms. I am currently working on analyzing algorithms utilizing stochastic differential equations. I am also broadly interested in theoretical computer science.
 
-I have received my Bachelor of Science (BS) degree in Computer Science and Mathematics from <a href="https://www.duke.edu" target="_blank">Duke University</a>. At Duke, I have worked with Prof. <a href="https://users.cs.duke.edu/~rongge/" target="_blank">Rong Ge</a> on deep learning theory, Prof. <a href="https://users.cs.duke.edu/~ashwin/" target="_blank">Ashwin Machanavajjhala</a> on differential privacy, and Prof. <a href="https://sites.duke.edu/marvian/" target="_blank">Iman Marvian</a> on quantum computation.
+I have received my Bachelor of Science (BS) degree in Computer Science and Mathematics from <a href="https://www.duke.edu" target="_blank">Duke University</a>. At Duke, I have worked with Prof. <a href="https://users.cs.duke.edu/~rongge/" target="_blank">Rong Ge</a> on Hessian in optimization algorithms, Prof. <a href="https://users.cs.duke.edu/~ashwin/" target="_blank">Ashwin Machanavajjhala</a> on differentially private algorithms, and Prof. <a href="https://sites.duke.edu/marvian/" target="_blank">Iman Marvian</a> on quantum computation.
 
-I have also worked with Prof. <a href="https://www.cs.yale.edu/homes/vishnoi/Home.html" target="_blank">Nisheeth Vishnoi</a> at Yale University on optimization with privacy guarantees.
+I have also worked with Prof. <a href="https://www.cs.yale.edu/homes/vishnoi/Home.html" target="_blank">Nisheeth Vishnoi</a> at Yale University on optimization on manifolds.
 
-**Research interests:** machine learning, optimization, data privacy
+**Research interests:** algorithms, optimization, sampling
