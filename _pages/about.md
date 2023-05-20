@@ -19,12 +19,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fas fa-volume-up"></i></a> (吴溢恺 in Chinese). I am an first-year Ph.D. student in Computer Science at Princeton University. 
+My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fas fa-volume-up"></i></a> (吴溢恺 in Chinese). I am an first-year Ph.D. student in Computer Science at Princeton University.
 
-My current research interests are optimization and sampling algorithms. I am currently working on analyzing algorithms utilizing stochastic differential equations. I am also broadly interested in theoretical computer science.
+My current research interests are optimization theory and algorithms. I am currently working with Prof. <a href="https://www.cs.princeton.edu/~arora/" target="_blank">Sanjeev Arora</a> on analyzing implicit bias in optimization algorithms. I am also broadly interested in theoretical computer science.
 
 I have received my Bachelor of Science (BS) degree in Computer Science and Mathematics from <a href="https://www.duke.edu" target="_blank">Duke University</a>. At Duke, I have worked with Prof. <a href="https://users.cs.duke.edu/~rongge/" target="_blank">Rong Ge</a> on Hessian in optimization algorithms, Prof. <a href="https://users.cs.duke.edu/~ashwin/" target="_blank">Ashwin Machanavajjhala</a> on differentially private algorithms.
 
 I have also worked with Prof. <a href="https://www.cs.yale.edu/homes/vishnoi/Home.html" target="_blank">Nisheeth Vishnoi</a> at Yale University on optimization on manifolds.
 
-**Research interests:** algorithms, optimization, sampling
+**Research interests:** algorithms, optimization
