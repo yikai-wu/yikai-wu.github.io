@@ -33,7 +33,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fas fa-volume-up"></i></a> (吴溢恺 in Chinese). I am an first-year Ph.D. student in Computer Science at Princeton University.
+My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fas fa-volume-up"></i></a> (Prounanciation:ee-keye uu, Chinese: 吴溢恺, Japanese: ウー・イーカイ). I am an first-year Ph.D. student in Computer Science at Princeton University.
 
 My current research interests are optimization theory and algorithms. I am currently working with Prof. <a href="https://www.cs.princeton.edu/~arora/" target="_blank">Sanjeev Arora</a> on analyzing implicit bias in optimization algorithms. I am also broadly interested in theoretical computer science.
 
