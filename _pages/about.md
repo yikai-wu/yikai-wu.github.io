@@ -30,10 +30,12 @@ latest_posts:
 
 My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fa-solid fa-volume-high"></i></a> (pronounced ee-keye uu; Chinese: 吴溢恺). I am a fifth-year Ph.D. candidate in Computer Science at Princeton University, advised by Prof. <a href="https://www.cs.princeton.edu/~arora/" target="_blank">Sanjeev Arora</a>.
 
-**Research interests:** machine learning and algorithms, with a current focus on large language model (LLM) reasoning, interpretability, and continual learning. My broader interests include optimization and differential privacy.
+**Research interests:** machine learning and algorithms, particularly large language model (LLM) reasoning, interpretability, continual learning, and AI for algorithmic and numerical optimization.
 
-I study how language models learn and apply mathematical skills, and how to use that understanding to improve training and evaluation. My current work includes generating synthetic math questions with controlled skill combinations, studying skill-targeted supervised fine-tuning and reinforcement learning, and extracting interpretable skill representations from model gradients. I also investigate how these representations can guide continual learning and reduce forgetting.
+**Research brief:** I study how language models acquire, represent, and combine problem-solving skills, and how this understanding can guide better training and evaluation. My work spans three connected directions:
 
-My earlier research spans language-model agents for numerical program optimization (**AlgoTune**), benchmarking AI methods against classical algorithms for combinatorial optimization, differentially private matrix approximation, and the structure of neural-network Hessians.
+- **Mathematical reasoning and training.** I develop synthetic math data with controlled combinations of skills and study how targeted supervised fine-tuning and reinforcement learning affect reasoning capabilities.
+- **Skill representations and continual learning.** I extract interpretable skill representations from model gradients and use them to guide fine-tuning, with the goal of learning new skills while preserving existing capabilities.
+- **AI for algorithms and optimization.** My work includes **AlgoTune**, which evaluates language-model agents for speeding up numerical programs, and benchmarking AI methods against strong classical solvers for combinatorial optimization.
 
 Before Princeton, I was a Ph.D. student at Yale University (2021-2022), where I worked with Prof. <a href="https://www.cs.yale.edu/homes/vishnoi/Home.html" target="_blank">Nisheeth Vishnoi</a> on differentially private matrix optimization. I received my B.S. **summa cum laude** from <a href="https://www.duke.edu" target="_blank">Duke University</a> in 2021, double majoring in Computer Science and Mathematics with a minor in Physics. At Duke, I worked with Prof. <a href="https://users.cs.duke.edu/~rongge/" target="_blank">Rong Ge</a> on neural-network Hessians and Prof. <a href="https://users.cs.duke.edu/~ashwin/" target="_blank">Ashwin Machanavajjhala</a> on differential privacy.
