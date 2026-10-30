@@ -2,29 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. student @ <a href="https://www.cs.princeton.edu/" target="_blank">Department of Computer Science</a>, <a href="https://www.princeton.edu/" target="_blank">Princeton University</a> 
+subtitle: Ph.D. student @ <a href="https://www.cs.princeton.edu/" target="_blank">Department of Computer Science</a>, <a href="https://www.princeton.edu/" target="_blank">Princeton University</a>
 
 profile:
   align: right
   image: Yikai_Wu.jpg
   image_circular: false # crops the image to make it circular
-  address: >
+  more_info: >
     <p>35 Olden St</p>
     <p>Computer Science 242</p>
     <p>Princeton, NJ 08540</p>
     <p>United States</p>
 
-news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # enable when personal news items are added
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false # enable when personal blog posts are added
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
