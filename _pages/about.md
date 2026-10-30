@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fa-solid fa-volume-high"></i></a> (pronounced ee-keye uu; Chinese: 吴溢恺). I am a Ph.D. candidate in Computer Science at Princeton University, advised by Prof. <a href="https://www.cs.princeton.edu/~arora/" target="_blank">Sanjeev Arora</a>.
+My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank" title="NameCoach"><i class="fa-solid fa-volume-high"></i></a> (pronounced ee-keye uu; Chinese: 吴溢恺). I am a fifth-year Ph.D. candidate in Computer Science at Princeton University, advised by Prof. <a href="https://www.cs.princeton.edu/~arora/" target="_blank">Sanjeev Arora</a>.
 
 My research focuses on mathematical reasoning in large language models (LLMs), with an emphasis on synthetic training data, interpretable skill representations, and continual learning. My current work includes:
 
