@@ -35,7 +35,7 @@ My name is Yikai Wu <a href="https://www.name-coach.com/yikai-wu" target="_blank
 **Research brief:** My current work studies how language models acquire, represent, and combine problem-solving skills, and how this understanding can guide better training and evaluation. My research includes:
 
 - **Mathematical reasoning and training (ongoing).** I am developing synthetic math data with controlled combinations of skills and investigating how targeted supervised fine-tuning and reinforcement learning affect reasoning capabilities.
-- **Skill representations and continual learning (ongoing).** I extract interpretable skill representations from model gradients and use them to guide fine-tuning, with the goal of learning new skills while preserving existing capabilities.
+- **Skill representations and continual learning.** I extract interpretable skill representations from model gradients and use them to guide fine-tuning, with the goal of learning new skills while preserving existing capabilities.
 - **LLM agents for program optimization.** I contributed to **AlgoTune**, a benchmark for evaluating whether language-model agents can speed up numerical programs while preserving correctness.
 - **AI for combinatorial optimization.** I benchmarked AI methods for Maximum Independent Set against strong classical solvers and analyzed why some methods resemble greedy heuristics.
 
