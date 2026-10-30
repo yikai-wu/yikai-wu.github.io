@@ -1,9 +1,18 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"TMLR":
+  url: https://jmlr.org/tmlr/
+  color: "#e77500"
+
+"NeurIPS":
+  url: https://proceedings.neurips.cc/paper_files/paper/2025
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
+"COLT":
+  url: https://proceedings.mlr.press/v178/
   color: "#009f36"
+
+"VLDB":
+  url: https://www.vldb.org/pvldb/vol14.html
+  color: "#00369f"
+
+"TPDP":
+  url: https://tpdp.journalprivacyconfidentiality.org/2019/

@@ -1,97 +1,212 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# Website CV: full academic CV (June 2026), with current research/status from October 2026.
+# The downloadable PDF remains the user-selected full academic CV.
+cv:
+  name: Yikai Wu
+  label: Ph.D. Candidate in Computer Science
+  email: yikai.wu@cs.princeton.edu
+  location: Princeton, NJ, USA
+  website: https://yikai-wu.github.io/
+  summary: >
+    Ph.D. candidate at Princeton University, advised by Prof. Sanjeev Arora.
+    Research focuses on mathematical reasoning in large language models, synthetic data,
+    gradient-based skill representations, and continual learning, with earlier work in
+    combinatorial optimization and differential privacy.
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+  sections:
+    Education:
+      - institution: Princeton University
+        location: Princeton, NJ, USA
+        area: Computer Science
+        studyType: Ph.D. candidate
+        start_date: 2022
+        end_date: present
+        highlights:
+          - "Advisor: Prof. Sanjeev Arora"
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+      - institution: Yale University
+        location: New Haven, CT, USA
+        area: Computer Science
+        studyType: Ph.D. studies
+        start_date: 2021
+        end_date: 2022
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+      - institution: Duke University
+        location: Durham, NC, USA
+        area: Computer Science and Mathematics; minor in Physics
+        studyType: B.S., summa cum laude
+        start_date: 2017
+        end_date: 2021
+        highlights:
+          - "GPA: 3.97/4.00"
+          - Phi Beta Kappa
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    Experience:
+      - company: Princeton University
+        position: Synthetic Math Data Generation
+        start_date: 2026-02
+        end_date: present
+        summary: "Advisor: Prof. Sanjeev Arora"
+        highlights:
+          - Develop pipelines to generate, solve, check, and refine difficult math questions with controlled skill combinations.
+          - Annotate mathematical skills and filter questions using answer consistency across teacher models.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+      - company: Princeton University
+        position: Gradient Skill Decomposition for Continual Learning
+        start_date: 2025-11
+        end_date: present
+        summary: "Advisor: Prof. Sanjeev Arora"
+        highlights:
+          - Combine layer-wise factor estimation and supervised skill recovery to extract interpretable skill vectors from per-example LoRA-B gradients.
+          - Use recovered skill vectors to project fine-tuning gradients away from protected skill subspaces and reduce forgetting.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      - company: Princeton University
+        position: Skill-Based Training for Mathematical Reasoning
+        start_date: 2025-10
+        end_date: 2026-02
+        summary: "Advisor: Prof. Sanjeev Arora"
+        highlights:
+          - Use stronger language models to diagnose missing mathematical skills and construct targeted training data.
+          - Study skill-targeted supervised fine-tuning and reinforcement learning; targeted RL did not consistently outperform standard RL.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+      - company: Princeton University
+        position: Language-Model Agents for Numerical Program Optimization
+        start_date: 2025-04
+        end_date: 2025-10
+        summary: "Mentor: Dr. Ofir Press"
+        highlights:
+          - Contributed to AlgoTune, a benchmark for numerical programming with correctness checks and runtime comparisons against reference implementations.
+          - Evaluated AlgoTuner, an agent that edits, compiles, profiles, verifies, and selects optimized code.
+          - Published at NeurIPS 2025, Datasets and Benchmarks Track.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+      - company: Princeton University
+        position: Step-by-Step Chain-of-Thought Reasoning Analysis
+        start_date: 2025-02
+        end_date: 2025-10
+        summary: "Advisor: Prof. Sanjeev Arora"
+        highlights:
+          - Studied reasoning decomposed into iterative steps across multiple forward passes to investigate reliance on memorized patterns.
+          - Analyzed reasoning robustness and failure modes including context loss, step fragmentation, and premature termination.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+      - company: Princeton University
+        position: Benchmarking AI for Combinatorial Optimization
+        start_date: 2023-10
+        end_date: 2025-01
+        summary: "Advisor: Prof. Sanjeev Arora"
+        highlights:
+          - Benchmarked generative and reinforcement learning methods for Maximum Independent Set against strong classical solvers.
+          - Introduced serialization analysis to explain similarities between non-backtracking AI methods and greedy heuristics.
+          - Published in Transactions on Machine Learning Research, April 2026.
+
+      - company: Yale University
+        position: Differentially Private Optimization on Unitary Orbits
+        start_date: 2021-06
+        end_date: 2022-02
+        summary: "Mentor: Prof. Nisheeth Vishnoi"
+        highlights:
+          - Designed efficient differentially private optimization algorithms on unitary orbits, with applications to PCA and rank-k matrix approximation.
+          - Established upper and lower utility bounds; published at COLT 2022.
+
+      - company: Duke University
+        position: Hessian Structure in Neural Networks
+        start_date: 2020-05
+        end_date: 2021-08
+        summary: "Mentor: Prof. Rong Ge"
+        highlights:
+          - Explained common neural-network Hessian structures using Kronecker factorization, with applications to PAC-Bayes generalization bounds.
+
+      - company: Duke University
+        position: Differential Privacy for Multiple Analysts
+        start_date: 2020-01
+        end_date: 2021-05
+        summary: "Mentor: Prof. Ashwin Machanavajjhala"
+        highlights:
+          - Formulated criteria for differential privacy with multiple analysts and designed algorithms with provable guarantees.
+          - Published at VLDB 2021, following a preliminary version at TPDP 2020.
+
+      - company: Duke University
+        position: Quantum Information and Algorithms
+        start_date: 2019-05
+        end_date: 2020-05
+        summary: "Mentor: Prof. Iman Marvian"
+        highlights:
+          - Investigated operators for ion-trap quantum computers and designed algorithms for quantum-state purification.
+
+      - company: Duke University
+        position: Differential Privacy for Summation Queries
+        start_date: 2018-05
+        end_date: 2019-11
+        summary: "Mentor: Prof. Ashwin Machanavajjhala"
+        highlights:
+          - Developed a data-dependent truncation algorithm for answering numerical summation queries under differential privacy.
+          - Presented at TPDP 2019.
+
+    Publications:
+      - title: "Unrealized Expectations: Comparing AI Methods vs Classical Algorithms for Maximum Independent Set"
+        publisher: Transactions on Machine Learning Research
+        date: 2026-04
+        url: https://openreview.net/forum?id=ksGoCT5zW6
+        summary: Yikai Wu, Haoyu Zhao, and Sanjeev Arora.
+
+      - title: "AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?"
+        publisher: NeurIPS, Datasets and Benchmarks Track
+        date: 2025
+        url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/9a648e8e1014c2427156dcb5465cd488-Abstract-Datasets_and_Benchmarks_Track.html
+        summary: Ori Press, Brandon Amos, Haoyu Zhao, Yikai Wu, et al.
+
+      - title: Private Matrix Approximation and Geometry of Unitary Orbits
+        publisher: Conference on Learning Theory (COLT)
+        date: 2022
+        url: https://proceedings.mlr.press/v178/mangoubi22a.html
+        summary: Oren Mangoubi, Yikai Wu, Satyen Kale, Abhradeep Thakurta, and Nisheeth K. Vishnoi.
+
+      - title: Budget Sharing for Multi-Analyst Differential Privacy
+        publisher: Proceedings of the VLDB Endowment, 14(10), 1805-1817
+        date: 2021
+        url: https://www.vldb.org/pvldb/vol14/p1805-pujol.pdf
+        summary: David Pujol, Yikai Wu, Brandon Fain, and Ashwin Machanavajjhala.
+
+      - title: "Dissecting Hessian: Understanding Common Structure of Hessian in Neural Networks"
+        publisher: arXiv preprint
+        date: 2020
+        url: https://arxiv.org/abs/2010.04261
+        summary: Yikai Wu, Xingyu Zhu, Chenwei Wu, Annie Wang, and Rong Ge.
+
+      - title: Answering Summation Queries for Numerical Attributes under Differential Privacy
+        publisher: arXiv preprint; TPDP 2019 poster
+        date: 2019
+        url: https://arxiv.org/abs/1908.10268
+        summary: Yikai Wu, David Pujol, Ios Kotsogiannis, and Ashwin Machanavajjhala.
+
+    Honors and Awards:
+      - title: Outstanding Undergraduate Researcher Honorable Mention
+        awarder: Computing Research Association (CRA)
+        date: 2020
+      - title: Meritorious Winner
+        awarder: Mathematical Contest in Modeling (MCM)
+        date: 2019
+      - title: Karl Menger Award in Mathematics
+        awarder: Duke University
+        date: 2018
+      - title: 4th Place, Mid-Atlantic Regional
+        awarder: International Collegiate Programming Contest (ICPC)
+        date: "2017, 2018"
+      - title: National Rank 142.5; Top 4 at Duke
+        awarder: William Lowell Putnam Mathematical Competition
+        date: 2017
+      - title: Gold Award; Individual Prize
+        awarder: Singapore Mathematical Olympiad (Open)
+        date: 2016
+      - title: Gold Medal
+        awarder: Singapore National Olympiad in Informatics (NOI)
+        date: 2015
+      - title: Bronze Medal
+        awarder: Asia-Pacific Informatics Olympiad (APIO)
+        date: 2014
+
+    Skills:
+      - name: Programming
+        keywords: Python, C++, C, R, Mathematica
+      - name: Frameworks
+        keywords: PyTorch, verl
+      - name: Methods
+        keywords: Factor analysis, supervised fine-tuning (SFT), reinforcement learning with verifiable rewards (RLVR), continual learning, LLM evaluation, synthetic data generation

@@ -1,6 +1,6 @@
 name: Render a CV
 on:
-  # The site uses a maintained PDF. Opt in after converting _data/cv.yml to RenderCV.
+  # Keep this manual: the public download is the user-selected academic PDF.
   workflow_call:
   workflow_dispatch:
 permissions:
